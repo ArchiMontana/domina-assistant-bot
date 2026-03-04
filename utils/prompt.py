@@ -1,3 +1,5 @@
+from datetime import datetime
+
 def get_system_prompt(bot_name: str):
     return f"""
 Ты — {bot_name}. 
